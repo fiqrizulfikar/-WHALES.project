@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.nav{
+    color: white;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.nav a{
+    color: white;
+}
+
+.nav li{
+    padding: 5px;
+}
+.nav li:hover{
+    background-color: red;
+}
+
+.searc-from{
+    display: flex;
+    position: center;
+    
+}
+
+.searc-input{
+    padding: 10px;
+    font-size: 16px;
+    font: optional;
+    border: 2px solid white;
+    border-right: none;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    transition: border-color 0.3s;
+    width: 100px;
+
+}
+
+.searc-input:focus{
+    border-color: #333;
+}
+
+.searc-buton{
+    padding: 5px 4px;
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.searc-buton:hover{
+    background-color: orangered;
+    border-color: white;
+}
+
+.data-list{
+    margin-left: 40%;
+}
+
+.data-list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.data-list a{
+    text-decoration: none;
+
+}
+
+.wisata:hover .list{
+   display: block;
+   color: red;
+}
+
+.list:hover .list a{
+    color: red;
+}
+
+/* header==================*/
+
+.header{
+    display: flex;
+}
+
+.des-header{
+    
+    width: 45%;
+    margin: auto;
+}
+
+.des-header h1{
+    font-weight: 800;
+    font-size: 6rem;
+    width: 50% ;
+}
+
+.gambar{
+    width: 45%;
+    height: 130vh;
+}
+
+.gambar img{
+    width: 100%;
+}
+
+/* bg card ================ */
+.bg-card{
+    width: 80%;
+    border: 2px solid red;
+    padding-bottom: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card{
+    border: 2px solid rebeccapurple;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.gambar-card{
+    width: 250px;
+    height: 200px;
+    border: 1px solid orange;
+}
+.gambar-card img{
+    width: 100%;
+    height: 100%;
+}
+.des-card{
+    padding: 5px;
+}
+
+.bg-card a{
+    text-decoration: none;
+}
